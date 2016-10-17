@@ -3,7 +3,7 @@ baseurl = "https://guillermo.guerreroibarra.com/"
 languageCode = "en-us"
 title = "Guillermo Guerrero Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-57386726-5"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -12,11 +12,11 @@ disable404 = true
 
 [params]
 
-# Meta
+    # Meta
     description = "Guillermo Guerrero Resume"
     author = "Guillermo Guerrero"
 
-# Theme styles
+    # Theme styles
 
     # The original template comes with 6 colour schemes. You may choose styles below.
     # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
@@ -25,7 +25,7 @@ disable404 = true
 
     styles = "styles.css"
 
-# Sidebar sections
+    # Sidebar sections
 
     # Profile section
     [params.profile]
@@ -38,28 +38,28 @@ disable404 = true
         enable = true
 
         [[params.contact.list]]
-        class = "email"
-        icon = "fa-envelope"
-        url = "mailto: guillermo@guerreroibarra.com"
-        title = "guillermo@guerreroibarra.com"
+          class = "email"
+          icon = "fa-envelope"
+          url = "mailto: guillermo@guerreroibarra.com"
+          title = "guillermo@guerreroibarra.com"
 
         [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "https://es.linkedin.com/in/guillermoguerreroibarra"
-        title = "linkedin.com/in/guillermo..."
+          class = "linkedin"
+          icon = "fa-linkedin"
+          url = "https://es.linkedin.com/in/guillermoguerreroibarra"
+          title = "linkedin.com/in/guillermo..."
 
         [[params.contact.list]]
-        class = "github"
-        icon = "fa-github"
-        url = "https://github.com/ryanfox1985"
-        title = "github.com/ryanfox1985"
+          class = "github"
+          icon = "fa-github"
+          url = "https://github.com/ryanfox1985"
+          title = "github.com/ryanfox1985"
 
         [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "https://twitter.com/ryan_fox85"
-        title = "@ryan_fox85"
+          class = "twitter"
+          icon = "fa-twitter"
+          url = "https://twitter.com/ryan_fox85"
+          title = "@ryan_fox85"
 
     # Education section
     [params.education]
@@ -67,14 +67,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "BSc in Computer Science"
-        college = "Universitat Rovira i Virgili"
-        dates = "2012"
+          degree = "BSc in Computer Science"
+          college = "Universitat Rovira i Virgili"
+          dates = "2012"
 
         [[params.education.list]]
-        degree = "Systems Engineering Technician"
-        college = "Universitat Rovira i Virgili"
-        dates = "2009"
+          degree = "Systems Engineering Technician"
+          college = "Universitat Rovira i Virgili"
+          dates = "2009"
 
     # Languages section
     [params.languages]
@@ -82,16 +82,16 @@ disable404 = true
         title = "Languages"
 
         [[params.languages.list]]
-        language = "Spanish"
-        level = "Native"
+          language = "Spanish"
+          level = "Native"
 
         [[params.languages.list]]
-        language = "Catalan"
-        level = "Native"
+          language = "Catalan"
+          level = "Native"
 
         [[params.languages.list]]
-        language = "English"
-        level = "Professional"
+          language = "English"
+          level = "Professional"
 
     # Interests section
     [params.interests]
@@ -99,25 +99,25 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Travels"
+          interest = "Travels"
 
         [[params.interests.list]]
-        interest = "Tv shows"
+          interest = "Tv shows"
 
         [[params.interests.list]]
-        interest = "Retro games"
+          interest = "Retro games"
 
         [[params.interests.list]]
-        interest = "Programming languages"
+          interest = "Programming languages"
 
         [[params.interests.list]]
-        interest = "Motorbikes"
+          interest = "Motorbikes"
 
         [[params.interests.list]]
-        interest = "Running"
+          interest = "Running"
 
         [[params.interests.list]]
-        interest = "Cooking"
+          interest = "Cooking"
 
     # Main body sections
 
@@ -139,31 +139,47 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Full-Stack Developer"
-        dates = "2016 - Present"
-        company = "Air Refund, Barcelona"
-        details = """The IT department improves the platform according with the necessities from Customer Service, Account manager and traveler experience in our site.<br /><br /> \
-        - Ruby on Rails, ReactJS, AngularJS, APIs.<br /> \
-        - AWS, DevOps.<br /> \
-        - Postgresql."""
+          position = "Full-Stack Developer"
+          dates = "Mar 2016 - Present"
+          company = "Air Refund, Barcelona"
+          details = """The IT department improves the platform according with the necessities from Customer Service, Account manager and traveler experience in our site.<br /><br /> \
+          - Ruby on Rails, ReactJS, AngularJS, APIs.<br /> \
+          - AWS, DevOps.<br /> \
+          - Postgresql."""
 
         [[params.jobs.list]]
-        position = "Cofunder"
-        dates = "2014 - Present"
-        company = "Devcows, Tarragona"
-        details = """I worked as a freelance, I designed and created web services and mobile applications using a agile languages and frameworks like Ruby On Rails, Python, Django and Java.<br /><br /> \
-        - Working with the latest technologies, Agile and Test-Driven Development.<br /> \
-        - DevOps (Vagrant, Docker, CoreOS).<br /> \
-        - AWS."""
+          position = "Cofunder"
+          dates = "Oct 2014 - Present"
+          company = "Devcows, Tarragona"
+          details = """I worked as a freelance, I designed and created web services and mobile applications using a agile languages and frameworks like Ruby On Rails, Python, Django and Java.<br /><br /> \
+          - Working with the latest technologies, Agile and Test-Driven Development.<br /> \
+          - DevOps (Vagrant, Docker, CoreOS).<br /> \
+          - AWS."""
 
         [[params.jobs.list]]
-        position = "Software Engineer"
-        dates = "2013 - 2015"
-        company = "Simpple, Tarragona"
-        details = """Simpple is a small company. The company uses Bitbucket and Github as a source revision control also uses JIRA for tracking and planning the projects. Also Test-driven development and good methodologies for agile software development like Scrum.<br /><br /> \
-        When I entered my position was a Cowboy Coding. I developed responsive web applications for company customers with Ruby on Rails using Bootstrap.<br /><br /> \
-        - [Performance improvements in RoR](http://gguerrero1985.bitbucket.org/pdf/slides/performance_improvements/performance_improvements.pdf)<br /> \
-        - [Getting started with Vagrant](http://gguerrero1985.bitbucket.org/pdf/slides/vagrant/vagrant.pdf)"""
+          position = "Software Engineer"
+          dates = "Aug 2013 - Apr 2015 (1y 8m)"
+          company = "Simpple, Tarragona"
+          details = """Simpple is a small company. The company uses Bitbucket and Github as a source revision control also uses JIRA for tracking and planning the projects. Also Test-driven development and good methodologies for agile software development like Scrum.<br /><br /> \
+          When I entered my position was a Cowboy Coding. I developed responsive web applications for company customers with Ruby on Rails using Bootstrap.<br /><br /> \
+          - [Performance improvements in RoR](http://gguerrero1985.bitbucket.org/pdf/slides/performance_improvements/performance_improvements.pdf)<br /> \
+          - [Getting started with Vagrant](http://gguerrero1985.bitbucket.org/pdf/slides/vagrant/vagrant.pdf)"""
+
+        [[params.jobs.list]]
+          position = "Software Engineer"
+          dates = "Oct 2011 – Jul 2013 (1y 10m)"
+          company = "AST Research Group, Tarragona"
+          details = """I was assigned to the RealCloud project. The project consist in create a synchronization system "Personal Cloud" for small and medium business like Dropbox.<br /><br /> \
+          Our Personal Cloud is composed by a system that we called Stacksync. It has a desktop client, a synchronization metadata system and Cloud Storage Service (Openstack Swift).<br /><br /> \
+          For the desktop client we found an Open source project that synchronizes files (Syncany). We used this client and we fixed some bugs and we added some features for example connect to Openstack Swift.<br /><br /> \
+          At the server part Openstack Swift we modify the ACL to share objects between clients."""
+
+        [[params.jobs.list]]
+          position = "Web developer"
+          dates = "Feb 2011 – Apr 2011 (3m)"
+          company = "Universitat Rovira i Virgili, Tarragona"
+          details = """Collaboration with the Universitat Rovira i Virgili to build a web application in PHP and JQuery to create questionnaires, it has different type of answers: order by, select, open, etc. ASPACE can do the questionnaires to their centers with this web application."""
+
 
     # Projects section
     [params.projects]
@@ -173,29 +189,29 @@ disable404 = true
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+          title = "Hugrid"
+          url = "https://github.com/aerohub/hugrid"
+          tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+          title = "Simple FAQ Theme for Hugo"
+          url = "https://github.com/aerohub/hugo-faq-theme"
+          tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+          title = "Hugo Identity"
+          url = "https://github.com/aerohub/hugo-identity-theme"
+          tagline = "Little profile/card-style template for Hugo."
 
         [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+          title = "Orbit"
+          url = "https://github.com/aerohub/hugo-orbit-theme"
+          tagline = "Hugo Resume/CV Theme for Developers."
 
         [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+          title = "Me"
+          url = "https://github.com/aerohub/hugo-me-theme"
+          tagline = "A simple responsive Hugo theme for personal site."
 
     # Skills section
     [params.skills]
@@ -204,28 +220,28 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "100%"
+          skill = "Ruby on Rails"
+          level = "100%"
 
         [[params.skills.list]]
-        skill = "ReactJS"
-        level = "100%"
+          skill = "ReactJS"
+          level = "100%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "100%"
+          skill = "HTML5 & CSS"
+          level = "100%"
 
         [[params.skills.list]]
-        skill = "DevOps"
-        level = "100%"
+          skill = "DevOps"
+          level = "100%"
 
         [[params.skills.list]]
-        skill = "Golang"
-        level = "100%"
+          skill = "Golang"
+          level = "100%"
 
         [[params.skills.list]]
-        skill = "Android"
-        level = "80%"
+          skill = "Android"
+          level = "80%"
 
 
     # Footer section
